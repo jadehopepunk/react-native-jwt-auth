@@ -1,0 +1,26 @@
+{
+  "name": "react-native-jwt-auth",
+  "version": "0.1.0",
+  "description": "Client side login system which assumes server provides JWT auth. Uses Redux.",
+  "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/craigambrose/react-native-jwt-auth.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "component",
+    "JWT",
+    "auth",
+    "redux"
+  ],
+  "author": "Craig Ambrose <craig@craigambrose.com> (https://github.com/craigambrose/)",
+  "contributors": [
+    "Chris Toynbee (https://github.com/ctoynbee)"
+  ],
+  "license": "MIT"
+}
