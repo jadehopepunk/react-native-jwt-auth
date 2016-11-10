@@ -1,7 +1,7 @@
 // @flow
 import { checkHttpStatus, parseJSON } from './utils'
 import jwtDecode from 'jwt-decode'
-import {LOGIN_USER_REQUEST, LOGIN_USER_SUCCESS, LOGIN_USER_FAILURE} from './constants'
+import {LOGIN_USER_REQUEST, LOGIN_USER_SUCCESS, LOGIN_USER_FAILURE, LOGOUT_USER} from './constants'
 
 // import {replaceRoute} from '../actions/route';
 
@@ -80,5 +80,11 @@ export function loginUser(endpointUrl, keyName, keyValue, password, redirect="/"
             }
           }));
       })
+  }
+}
+
+export function logoutUser() {
+  return {
+    type: LOGOUT_USER
   }
 }

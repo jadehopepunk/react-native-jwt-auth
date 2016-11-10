@@ -1,6 +1,6 @@
 {
   "name": "react-native-jwt-auth",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Client side login system which assumes server provides JWT auth. Uses Redux.",
   "main": "index.js",
   "repository": {
